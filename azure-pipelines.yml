@@ -7,7 +7,7 @@ trigger:
 - main
 
 pool:
-  Default
+  Jyoti
 
 steps:
 - script: echo Hello, world!
@@ -35,3 +35,11 @@ steps:
     PathtoPublish: '$(Build.ArtifactStagingDirectory)'
     ArtifactName: 'drop'
     publishLocation: 'Container'
+
+- task: UiPathRunJob@2
+  inputs:
+    orchestratorConnection: 'Test_Service_Connection'
+    processName: 'UDAAN_TESTMAN_Tests'
+    folderName: 'UDAAN_TestCase'
+    jobType: 'TestAutomation'
+    user: 'msi\jyoti w'
