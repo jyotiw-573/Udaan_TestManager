@@ -1,0 +1,74 @@
+{
+  "name": "UDAAN_TESTMAN",
+  "description": "Blank Process",
+  "main": "Main.xaml",
+  "dependencies": {
+    "UiPath.Excel.Activities": "[2.12.3]",
+    "UiPath.Mail.Activities": "[1.15.2]",
+    "UiPath.System.Activities": "[22.4.4]",
+    "UiPath.Testing.Activities": "[22.4.3]",
+    "UiPath.UIAutomation.Activities": "[22.4.7]"
+  },
+  "webServices": [],
+  "entitiesStores": [],
+  "schemaVersion": "4.0",
+  "studioVersion": "22.4.4.0",
+  "projectVersion": "1.0.113334443",
+  "runtimeOptions": {
+    "autoDispose": false,
+    "netFrameworkLazyLoading": false,
+    "isPausable": true,
+    "isAttended": false,
+    "requiresUserInteraction": true,
+    "supportsPersistence": false,
+    "excludedLoggedData": [
+      "Private:*",
+      "*password*"
+    ],
+    "executionType": "Workflow",
+    "readyForPiP": false,
+    "startsInPiP": false,
+    "mustRestoreAllDependencies": true
+  },
+  "designOptions": {
+    "projectProfile": "Developement",
+    "outputType": "Process",
+    "libraryOptions": {
+      "includeOriginalXaml": false,
+      "privateWorkflows": []
+    },
+    "processOptions": {
+      "ignoredFiles": []
+    },
+    "fileInfoCollection": [
+      {
+        "editingStatus": "Publishable",
+        "testCaseId": "84430ce3-8ad3-4d3a-af4b-21831de3ce4c",
+        "dataVariationFilePath": ".variations\\TestData_Login_Sheet1.json",
+        "testCaseType": "TestCase",
+        "fileName": "UDAAN\\TestCase_A1_Launch_Login.xaml"
+      },
+      {
+        "editingStatus": "Publishable",
+        "testCaseId": "b5d3c1de-702e-439b-a3e8-fe52f8e16a71",
+        "dataVariationFilePath": ".variations\\TestData_A5_Add_to_MLI_Sheet1.json",
+        "testCaseType": "TestCase",
+        "fileName": "UDAAN\\TestCase_A5_Add_to_MLI_Master.xaml"
+      }
+    ],
+    "modernBehavior": false
+  },
+  "expressionLanguage": "VisualBasic",
+  "entryPoints": [
+    {
+      "filePath": "Main.xaml",
+      "uniqueId": "db24709a-8b32-465e-9ef1-49ec1613d820",
+      "input": [],
+      "output": []
+    }
+  ],
+  "isTemplate": false,
+  "templateProjectData": {},
+  "publishData": {},
+  "targetFramework": "Legacy"
+}

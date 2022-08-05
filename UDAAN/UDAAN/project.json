@@ -1,0 +1,88 @@
+{
+  "name": "Udaan",
+  "description": "Blank Process",
+  "main": "Main.xaml",
+  "dependencies": {
+    "UiPath.Excel.Activities": "[2.12.3]",
+    "UiPath.Mail.Activities": "[1.15.2]",
+    "UiPath.System.Activities": "[22.4.1]",
+    "UiPath.Testing.Activities": "[22.4.3]",
+    "UiPath.UIAutomation.Activities": "[22.4.5]"
+  },
+  "webServices": [],
+  "entitiesStores": [],
+  "schemaVersion": "4.0",
+  "studioVersion": "22.4.3.0",
+  "projectVersion": "1.0.113207701",
+  "runtimeOptions": {
+    "autoDispose": false,
+    "netFrameworkLazyLoading": false,
+    "isPausable": true,
+    "isAttended": false,
+    "requiresUserInteraction": true,
+    "supportsPersistence": false,
+    "excludedLoggedData": [
+      "Private:*",
+      "*password*"
+    ],
+    "executionType": "Workflow",
+    "readyForPiP": false,
+    "startsInPiP": false,
+    "mustRestoreAllDependencies": false
+  },
+  "designOptions": {
+    "projectProfile": "Developement",
+    "outputType": "Process",
+    "libraryOptions": {
+      "includeOriginalXaml": false,
+      "privateWorkflows": []
+    },
+    "processOptions": {
+      "ignoredFiles": []
+    },
+    "fileInfoCollection": [
+      {
+        "editingStatus": "InProgress",
+        "testCaseId": "36c8ad26-8666-4144-8401-99755cd7d8ef",
+        "dataVariationFilePath": ".variations\\TestData_Add_to_MLI_Rating_Sheet1.json",
+        "testCaseType": "TestCase",
+        "fileName": "Udaan\\A9\\MLI Rating\\TestCase_A9_MLI Rating.xaml"
+      },
+      {
+        "editingStatus": "InProgress",
+        "testCaseId": "1cbf54b0-4f4e-4735-8743-049ed0f99e4c",
+        "dataVariationFilePath": ".variations\\TestData_Sheet1_2.json",
+        "testCaseType": "TestCase",
+        "fileName": "Udaan\\A8\\MLI Gst\\TestCase_A8_Add_to_MLI_GST.xaml"
+      },
+      {
+        "editingStatus": "Publishable",
+        "testCaseId": "e799f606-a650-4372-ac84-23958cb1b531",
+        "dataVariationFilePath": ".variations\\TestData_Login_Sheet1.json",
+        "testCaseType": "TestCase",
+        "fileName": "Udaan\\Demo_TestCases\\TestCase_A1_Launch_Login.xaml"
+      },
+      {
+        "editingStatus": "Publishable",
+        "testCaseId": "78826cbf-d339-413e-a640-6190e5ee45da",
+        "dataVariationFilePath": ".variations\\TestData_A5_Add_to_MLI_Sheet1.json",
+        "testCaseType": "TestCase",
+        "fileName": "Udaan\\Demo_TestCases\\TestCase_A5_Add_to_MLI_Master.xaml"
+      }
+    ],
+    "modernBehavior": true
+  },
+  "expressionLanguage": "VisualBasic",
+  "entryPoints": [
+    {
+      "filePath": "Main.xaml",
+      "uniqueId": "99ad44d5-b2dc-401e-b217-adc00986afd9",
+      "input": [],
+      "output": []
+    }
+  ],
+  "isTemplate": false,
+  "templateProjectData": {},
+  "publishData": {},
+  "targetFramework": "Legacy"
+}
