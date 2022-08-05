@@ -18,10 +18,8 @@ steps:
     echo See https://aka.ms/yaml
   displayName: 'Run a multi-line script'
 
-- task: UiPathRunJob@2
+- task: UiPathTest@2
   inputs:
+    testTarget: 'TestProject'
     orchestratorConnection: 'Test_Service_Connection'
-    processName: 'UDAAN_TESTMAN_Tests'
     folderName: 'UDAAN_TestCase'
-    jobType: 'TestAutomation'
-    user: 'msi\jyoti w'
